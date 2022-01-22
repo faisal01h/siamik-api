@@ -1,0 +1,25 @@
+{
+  "name": "siamik-api",
+  "version": "0.3.0",
+  "description": "UPN Veteran Jawa Timur RESTful SIAMIK",
+  "main": "App.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.11.1",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^5.3.1",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.1.2"
+  },
+  "scripts": {
+    "start": "node App",
+    "dev": "nodemon App",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "faisal01h",
+  "license": "MIT"
+}
